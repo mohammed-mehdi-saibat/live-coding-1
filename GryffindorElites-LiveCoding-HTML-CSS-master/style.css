@@ -10,15 +10,16 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  position: relative;
 }
 
 .main-container {
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 80%;
   height: 80%;
   display: flex;
   padding: 20px;
-  gap: 50px;
+  gap: 20px;
   color: white;
 }
 
@@ -85,9 +86,92 @@ p {
   font-size: 12px;
 }
 
-.left-top-cards .left-top-card {
-  background: url(images/image-jonathan.jpg);
+.left-top-cards {
+  gap: 20px;
 }
 
-.kira-card {
+.left-top-cards .left-top-card {
+  background-color: rgb(49, 49, 144);
+  border-radius: 7px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
 }
+
+.left-top-cards .left-top-card h1 {
+  z-index: 1;
+}
+
+.left-top-cards .left-top-card .quotation {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  z-index: 0;
+  width: 90px;
+}
+
+.left-top-cards .right-top-card {
+  background-color: rgb(239, 139, 139);
+  border-radius: 7px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.left-bottom-cards {
+  gap: 20px;
+}
+
+.left-bottom-cards .left-bottom-card {
+  background-color: rgb(239, 139, 139);
+  border-radius: 7px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: black;
+  background-color: white;
+  box-shadow: 1px 2px 200px black;
+}
+
+.left-bottom-cards .left-bottom-card .info-text {
+  color: black;
+}
+
+.left-bottom-cards .right-bottom-card {
+  background-color: #333;
+  border-radius: 7px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.kira-card {
+  box-shadow: 1px 2px 200px black;
+  color: black;
+  border-radius: 7px;
+  padding: 30px;
+  width: 210%;
+}
+
+.kira-card .info-text {
+  color: black;
+  flex: 1;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 20px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!GRID WOULD MAKE WORK SO MUCH EASIER!!!!!!!!!!! */
